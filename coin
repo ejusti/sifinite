@@ -9,7 +9,7 @@
   "n_tx": 22,
   "size": 9195,
   "block_index": 818044,
-  "main_chain": true,
+  "main_chain": 1,
   "height": 154595,
   "received_time": 1322131301,
   "relayed_by": "108.60.208.156",
