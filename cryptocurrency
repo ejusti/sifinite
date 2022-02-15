@@ -1,0 +1,9 @@
+contract HelloCoin ( 
+    mapping (address => unit) public balance;
+    function mint(address receiver, unit amount) {
+        balance[receiver] += amount;
+    }
+    function send(address receiver, unit amount) {
+        balance[msg.sender] -= amount;
+        balance[receiver] += amount;
+    } 
